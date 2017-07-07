@@ -3,7 +3,7 @@ $current = 5;
 require('header.php');
 $id = $_GET['user_id'];
 if(!empty($_POST)){
-	$no_hp = $_POST['no_hp'];asdasdasdasdas
+	$no_hp = $_POST['no_hp'];
 	// var_dump($_FILES);
 	if($_FILES["foto"]["tmp_name"] != ""){
 		$target_dir = "img/foto/";
